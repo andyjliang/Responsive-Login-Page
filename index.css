@@ -1,0 +1,114 @@
+
+
+body {
+	background-color: #0f4656;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+	display: block;
+}
+
+/* Padding for Tap Targets */
+a, button {
+	padding: 1em;
+	cursor: pointer;
+}
+
+/* Components */
+
+header, button { 
+	background-color: #f49b42;
+}
+
+.login-container {
+	margin: 10% auto;
+	border-radius: 10px;
+	width: 350px;
+	height: 450px;
+	max-width: 90%;
+	max-height: 90%;
+	display: block;
+	background-color: #ffeed3;
+}
+
+.login-input-area {
+	margin: 40px 0px;
+}
+
+form {
+	padding: 0px 20px;
+}
+
+header {
+	border-radius: 10px 10px 0 0;
+	padding: 10px;
+}
+
+input {
+	width: 250px;
+	border-radius: 5px;
+	padding: 10px;
+	border: 1px solid #c1bfbf;
+	outline: none;
+}
+
+button {
+	clear: both;
+	border-radius: 25px;
+	width: 130px;
+	border: 0;
+	float: right;
+	margin: 20px 0px;
+	padding: 10px 15px;
+	font-weight: bolder;
+}
+
+/* Texts */
+
+a, h3, p {
+	margin: auto;
+}
+
+a, h3 {
+	text-align: center;
+}
+
+a, input {
+	font-size: 14px;
+}
+
+button {
+	font-size: 18px;
+}
+
+a {
+	color: #f49b42;
+	clear: right;
+}
+
+h3, button {
+	color: white;
+}
+
+p {
+	color: #a35b47;
+	font-size: 12px;
+	left: 10px;
+	position: relative;
+	font-weight: bolder;
+}
+
+/* Hovers & focus */
+
+input:focus {
+	border-color: #f49b42;
+}
+
+button:hover { 
+	background-color: #fcb064;
+}
+
+a:hover {
+	color: #fcb064;
+}
