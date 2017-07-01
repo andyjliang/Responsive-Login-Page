@@ -48,12 +48,12 @@ header {
 	border-radius: 10px 10px 0 0;
 }
 
-a, h3, p, input {
+a, h3, p {
 	margin: auto;
 }
 
 input {
-	width: 280px;
+	width: 250px;
 	border-radius: 5px;
 	border: 1px solid #c1bfbf;
 	outline: none;
